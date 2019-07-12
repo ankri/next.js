@@ -388,8 +388,6 @@ When you need state, lifecycle hooks or **initial data population** you can expo
 Using a stateless function:
 
 ```jsx
-import fetch from 'isomorphic-unfetch';
-
 function Page({ stars }) {
   return <div>Next stars: {stars}</div>
 }
